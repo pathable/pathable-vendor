@@ -1,7 +1,7 @@
 import fs from 'fs';
 import fsp from 'fs-promise';
 
-const exportTemplate = (dependency) => `export * from './${dependency}';\n`;
+const exportTemplate = (dependency) => `export * from '${dependency}';\n`;
 
 export default () => {
   const packageInfo = JSON.parse(fs.readFileSync('package.json', 'utf8'));
