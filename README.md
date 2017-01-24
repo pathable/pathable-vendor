@@ -4,10 +4,11 @@ This repository contains the dependencies used across Pathable's apps and packag
 ## Dependencies management
 Be sure to have installed `yarn` in your env.
 
-Installing/Uninstalling a new dependency via `yarn` or `npm` will automatically run a script for exporting the current state of modules on the package.
+Installing/Uninstalling dependencies via `yarn` or `npm` will automatically run a script for exporting the current state of modules on the package.
 
 ### Add a new dependency
 With `yarn`,
+
 `yarn add [NPM_DEP]`
 
 With `npm`,
