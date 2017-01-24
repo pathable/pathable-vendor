@@ -3,11 +3,11 @@
   "private": true,
   "scripts": {
     "preuninstall": "npm run clear-modules",
-    "postuninstall": "npm run expose-modules",
+    "postuninstall": "npm run export-modules",
     "preinstall": "npm run clear-modules",
-    "postinstall": "npm run expose-modules",
+    "postinstall": "npm run export-modules",
     "clear-modules": "babel-node --presets es2015 ./scripts clear-modules",
-    "expose-modules": "babel-node --presets es2015 ./scripts expose-modules"
+    "export-modules": "babel-node --presets es2015 ./scripts export-modules"
   },
   "dependencies": {
     "lodash": "^4.17.4"
@@ -17,6 +17,7 @@
     "babel-eslint": "^6.1.2",
     "babel-preset-es2015": "^6.16.0",
     "commander": "^2.9.0",
+    "dateformat": "^2.0.0",
     "eslint": "^2.8.0",
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-import": "^1.5.0",
