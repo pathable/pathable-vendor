@@ -1,9 +1,7 @@
 import fs from 'fs';
 import fsp from 'fs-promise';
-import dateFormat from 'dateformat';
 
 const exportTemplate = (dependency) => `export * from './${dependency}';\n`;
-const exportedTemplate = () => `${dateFormat(new Date(), 'dddd, mmmm dS, yyyy, h:MM:ss TT')}`;
 
 export default () => {
   const packageInfo = JSON.parse(fs.readFileSync('package.json', 'utf8'));
@@ -23,7 +21,7 @@ export default () => {
     const exportContent = exportTemplate(dependency);
     const work = fsp.writeFile(`${dir}/index.js`, exportContent)
       .then(() => {
-        fsp.writeFile(`${dir}/.exported`, exportedTemplate());
+        fsp.writeFile(`${dir}/.exported`, '');
         // eslint-disable-next-line
         console.warn(`\x1b[34mDependency exported: ${dependency}\x1b[0m`);
       })
