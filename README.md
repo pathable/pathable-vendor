@@ -13,19 +13,19 @@ With `yarn`,
 
 With `npm`,
 ```
-npm install [NPM_DEP] --save`
+npm install [NPM_DEP] --save
 npm install  // needed for running the exporting script
 ```
 
 ### Remove a dependency
 With `yarn`,
 ```
-yarn remove [NPM_DEP]`
+yarn remove [NPM_DEP]
 yarn install  // needed for running the clearing script
 ```
 
 With `npm`,
 ```
-npm uninstall [NPM_DEP] --save`
+npm uninstall [NPM_DEP] --save
 npm install  // needed for running the clearing script
 ```
