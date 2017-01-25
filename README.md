@@ -1,10 +1,10 @@
 # pathable-vendor
 This repository contains the dependencies used across Pathable's apps and packages.
 
-## Dependencies management
-Be sure to have installed `yarn` in your env.
+## Dependency Management
+Be sure you've installed `yarn` locally.
 
-Installing/Uninstalling dependencies via `yarn` or `npm` will automatically run a script for exporting the current state of modules on the package.
+Installing/Uninstalling dependencies via `yarn` or `npm` will automatically run a script exporting the current state of the package modules.
 
 ### Add a new dependency
 With `yarn`,
@@ -17,7 +17,7 @@ npm install [NPM_DEP] --save`
 npm install  // needed for running the exporting script
 ```
 
-### Remove dependencies
+### Remove a dependency
 With `yarn`,
 ```
 yarn remove [NPM_DEP]`
