@@ -8,7 +8,7 @@ export default () => {
   const packageName = packageInfo.name;
 
   // eslint-disable-next-line
-  console.warn(`\x1b[32mClearing dependencies from ${packageName}...\x1b[0m`);
+  console.warn(`\x1b[32mClearing dependencies exports from ${packageName}...\x1b[0m`);
 
   const works = [];
   fs.readdir('./', (err, files) => {
@@ -28,6 +28,6 @@ export default () => {
   Promise.all(works)
     .then(() => {
       // eslint-disable-next-line
-      console.warn(`\x1b[32mDependencies cleared.\x1b[0m`);
+      console.warn(`\x1b[32mDependencies exports cleared.\x1b[0m`);
     });
 };
