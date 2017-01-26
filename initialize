@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+# Install needed dependencies for running scripts
+if [ ! -d "node_modules" ]; then
+  npm install --ignore-scripts --only=dev
+fi
