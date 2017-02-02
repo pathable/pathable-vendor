@@ -1188,9 +1188,9 @@ double-ended-queue@^2.1.0-0:
   version "2.1.0-0"
   resolved "https://registry.yarnpkg.com/double-ended-queue/-/double-ended-queue-2.1.0-0.tgz#103d3527fd31528f40188130c841efdd78264e5c"
 
-draft-js-code@Gywem/draft-js-code:
+"draft-js-code@git+ssh://git@github.com/Gywem/draft-js-code":
   version "0.2.0"
-  resolved "https://codeload.github.com/Gywem/draft-js-code/tar.gz/6ade482bdd1ec586f6839333120b0d85963f1906"
+  resolved "git+ssh://git@github.com/Gywem/draft-js-code#6ade482bdd1ec586f6839333120b0d85963f1906"
   dependencies:
     detect-indent "^4.0.0"
     detect-newline "^2.1.0"
@@ -1229,12 +1229,13 @@ draft-js-import-markdown@^0.1.6:
     draft-js-import-element "^0.2.0"
     synthetic-dom "^0.1.4"
 
-draft-js-prism@Gywem/draft-js-prism:
+"draft-js-prism@git+ssh://git@github.com/Gywem/draft-js-prism#1.0.4":
   version "1.0.3"
-  resolved "https://codeload.github.com/Gywem/draft-js-prism/tar.gz/5f7af08fa295f5a2598af96c617ba6deed2d7149"
+  resolved "git+ssh://git@github.com/Gywem/draft-js-prism#1fb094e8b85d92f3f24cd60888b51846abbd9d10"
   dependencies:
     extend "^3.0.0"
     immutable "*"
+    js-htmlencode "^0.2.0"
     prismjs "^1.6.0"
 
 draft-js-utils@^0.1.5:
@@ -2315,6 +2316,10 @@ js-beautify@^1.6.3:
     editorconfig "^0.13.2"
     mkdirp "~0.5.0"
     nopt "~3.0.1"
+
+js-htmlencode@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/js-htmlencode/-/js-htmlencode-0.2.0.tgz#469505579dc1071a40fce4620fb426883cda4fe7"
 
 js-tokens@^3.0.0:
   version "3.0.0"
