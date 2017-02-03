@@ -1,6 +1,10 @@
 #!/bin/bash -e
 
+npm install https://github.com/pathable/pathable-scripts.git
+
+# TODO: Move babel scripts to `pathable-scripts` and set up the
+# babel-cli dependency there.
 # Install needed dependencies for running scripts
-if [ ! -d "node_modules" ]; then
+if [ ! -d "node_modules/babel-cli" ]; then
   npm install --ignore-scripts --only=dev
 fi
