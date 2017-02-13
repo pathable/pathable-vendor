@@ -51,6 +51,7 @@
     "react-router": "^2.4.0",
     "react-router-redux": "^4.0.4",
     "react-rte": "git://github.com/pathable/react-rte.git",
+    "react-tabs": "^0.8.2",
     "react-twitter-widgets": "^0.2.4",
     "redis": "^2.6.3",
     "redux": "^3.3.1",
