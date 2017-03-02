@@ -29,6 +29,7 @@
     "filepicker-js": "^2.4.11",
     "generic-names": "^1.0.2",
     "immutable": "^3.7.6",
+    "jsdom": "^9.11.0",
     "lodash": "^4.11.1",
     "md5": "^2.2.1",
     "mjml": "^2.3.3",
