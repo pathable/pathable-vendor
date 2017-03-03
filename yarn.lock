@@ -3377,6 +3377,10 @@ path-type@^1.0.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+"pathable-scripts@https://github.com/pathable/pathable-scripts.git":
+  version "0.2.3"
+  resolved "https://github.com/pathable/pathable-scripts.git#bec6f14c1821ed031b2c9913c80f2a099d2bcfbd"
+
 pify@^2.0.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
