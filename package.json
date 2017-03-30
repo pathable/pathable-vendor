@@ -45,7 +45,7 @@
     "object-unfreeze": "^1.1.0",
     "postcss": "^5.2.11",
     "react": "15.1.x",
-    "react-addons-pure-render-mixin": "^15.4.2",
+    "react-addons-pure-render-mixin": "15.1.x",
     "react-addons-shallow-compare": "15.1.x",
     "react-addons-test-utils": "15.1.x",
     "react-colorpickr": "4.3.0",
