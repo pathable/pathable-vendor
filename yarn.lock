@@ -4159,6 +4159,13 @@ rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-addons-pure-render-mixin@^15.4.2:
+  version "15.4.2"
+  resolved "https://registry.yarnpkg.com/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.4.2.tgz#a8433c71c45e2368503721921dc47bdaf1fbabcd"
+  dependencies:
+    fbjs "^0.8.4"
+    object-assign "^4.1.0"
+
 react-addons-shallow-compare@15.1.x:
   version "15.1.0"
   resolved "https://registry.yarnpkg.com/react-addons-shallow-compare/-/react-addons-shallow-compare-15.1.0.tgz#39446525acc631fd3fa0fe3f8744460239cb6fca"
@@ -4668,6 +4675,10 @@ rimraf@~2.5.1, rimraf@~2.5.4:
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.5.4.tgz#96800093cbf1a0c86bd95b4625467535c29dfa04"
   dependencies:
     glob "^7.0.5"
+
+rosie@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/rosie/-/rosie-1.6.0.tgz#bc0ef64cd401d00794450d5792c0276e226b6ab0"
 
 run-async@^0.1.0:
   version "0.1.0"
