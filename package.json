@@ -75,6 +75,7 @@
     "redux-thunk": "^2.1.0",
     "request": "^2.79.0",
     "rosie": "^1.6.0",
+    "simpl-schema": "^0.2.3",
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0",
     "slugs": "^0.1.3",
