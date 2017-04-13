@@ -1236,10 +1236,6 @@ deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
 
-deepmerge@^1.0.0:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-1.3.2.tgz#1663691629d4dbfe364fa12a2a4f0aa86aa3a050"
-
 define-properties@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.2.tgz#83a73f2fea569898fb737193c8f873caf6d45c94"
@@ -2083,13 +2079,6 @@ glob@^7.0.0, glob@^7.0.3, glob@^7.0.5, glob@~7.1.1:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-global-cache@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/global-cache/-/global-cache-1.2.0.tgz#bf7f4178a389c8ee513001a7a2e8d3253cc4ad8c"
-  dependencies:
-    define-properties "^1.1.2"
-    is-symbol "^1.0.1"
-
 globals@^9.0.0, globals@^9.2.0:
   version "9.16.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-9.16.0.tgz#63e903658171ec2d9f51b1d31de5e2b8dc01fb80"
@@ -2696,67 +2685,67 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.3.6"
 
-jss-camel-case@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/jss-camel-case/-/jss-camel-case-3.0.0.tgz#46aa18eb149e95afce074532ad47df1c2a7d45cb"
-
-jss-compose@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/jss-compose/-/jss-compose-2.0.1.tgz#df881ac1fe310b49bab4ad4229b32abc69b3ee6f"
-  dependencies:
-    warning "^3.0.0"
-
-jss-default-unit@^5.0.2:
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/jss-default-unit/-/jss-default-unit-5.0.3.tgz#b9450f31c37feaed3151554b2938363974780af1"
-
-jss-expand@^2.0.3:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/jss-expand/-/jss-expand-2.1.0.tgz#dc0f458304a9f597b524dd4ae773ea29adcb3d27"
-
-jss-extend@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/jss-extend/-/jss-extend-3.0.1.tgz#aeb5846f1650d7590c686b5c1932b44a3721742d"
-  dependencies:
-    warning "^3.0.0"
-
-jss-global@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/jss-global/-/jss-global-0.4.1.tgz#41862c78528de4d333853004eb71adecde1a5fda"
-
-jss-nested@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/jss-nested/-/jss-nested-3.0.1.tgz#14c10265c8fc5bd61b450b48f1e9fb36d90ae569"
-  dependencies:
-    warning "^3.0.0"
-
-jss-preset-default@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/jss-preset-default/-/jss-preset-default-1.3.1.tgz#8a4b7f9a41ec412d19fb1d23e6dc80ebef040d5a"
-  dependencies:
-    jss-camel-case "^3.0.0"
-    jss-compose "^2.0.0"
-    jss-default-unit "^5.0.2"
-    jss-expand "^2.0.3"
-    jss-extend "^3.0.0"
-    jss-global "^0.4.1"
-    jss-nested "^3.0.1"
-    jss-props-sort "^3.0.0"
-    jss-vendor-prefixer "^4.0.0"
-
-jss-props-sort@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/jss-props-sort/-/jss-props-sort-3.0.0.tgz#19544610109b1fa953f22799eecb080240d8dc00"
-
-jss-vendor-prefixer@^4.0.0:
+jss-camel-case@^4.0.0:
   version "4.0.0"
-  resolved "https://registry.yarnpkg.com/jss-vendor-prefixer/-/jss-vendor-prefixer-4.0.0.tgz#df16a8fcc6ecb4567394174e6ab90145cf8b34a3"
+  resolved "https://registry.yarnpkg.com/jss-camel-case/-/jss-camel-case-4.0.0.tgz#39ef2a137aaa1e2f160ab826845305f8efabcfd5"
+
+jss-compose@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/jss-compose/-/jss-compose-3.0.1.tgz#0ac07f20baf1d523c211016d383dab08dcfe4186"
+  dependencies:
+    warning "^3.0.0"
+
+jss-default-unit@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/jss-default-unit/-/jss-default-unit-6.0.0.tgz#c2fe4f6e62a319e01d9a8b19774fdda04dd5bb0e"
+
+jss-expand@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/jss-expand/-/jss-expand-3.0.0.tgz#ce22bf8f9d99afa822738d82dcc3bdbf32766b1d"
+
+jss-extend@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/jss-extend/-/jss-extend-4.0.0.tgz#1c377d4efd67f34c997b699aa8bc1dab1c7edf95"
+  dependencies:
+    warning "^3.0.0"
+
+jss-global@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/jss-global/-/jss-global-1.0.0.tgz#ba87850cd56d32e0623c3878fd5ef376a61e6f65"
+
+jss-nested@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/jss-nested/-/jss-nested-4.0.0.tgz#70d8aaaeb0ae1c0ca6ac74b329255b71e58bf72e"
+  dependencies:
+    warning "^3.0.0"
+
+jss-preset-default@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/jss-preset-default/-/jss-preset-default-2.0.0.tgz#0368d99626b31067e8d04ab3c7cb17ba8354d422"
+  dependencies:
+    jss-camel-case "^4.0.0"
+    jss-compose "^3.0.0"
+    jss-default-unit "^6.0.0"
+    jss-expand "^3.0.0"
+    jss-extend "^4.0.0"
+    jss-global "^1.0.0"
+    jss-nested "^4.0.0"
+    jss-props-sort "^4.0.0"
+    jss-vendor-prefixer "^5.0.0"
+
+jss-props-sort@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/jss-props-sort/-/jss-props-sort-4.0.0.tgz#ef4239c6795ca304c18dce9e0395a1789ed9f78a"
+
+jss-vendor-prefixer@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/jss-vendor-prefixer/-/jss-vendor-prefixer-5.0.0.tgz#dea8e4e2cefc91f5f0bf9b8c391e583a9fb0c296"
   dependencies:
     css-vendor "^0.3.8"
 
-jss@^6.3.0:
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/jss/-/jss-6.5.0.tgz#9294a367b658daa2036c36f563ff6bfb0c7b12a1"
+jss@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/jss/-/jss-7.0.0.tgz#6fad0b0b429303e06c42248d50cf0fe9a6c8fd80"
   dependencies:
     is-in-browser "1.0.2"
     warning "3.0.0"
@@ -4351,14 +4340,6 @@ react-twitter-widgets@^0.2.4:
     lodash.clonedeep "^4.3.1"
     lodash.isequal "^4.1.1"
     scriptjs "^2.5.8"
-
-react-with-styles@^1.1.1:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/react-with-styles/-/react-with-styles-1.3.0.tgz#83e328f58d83ceaa75e0dd86e57087e29793dc9b"
-  dependencies:
-    deepmerge "^1.0.0"
-    global-cache "^1.2.0"
-    hoist-non-react-statics "^1.2.0"
 
 react@15.1.x:
   version "15.1.0"
