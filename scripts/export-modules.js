@@ -20,17 +20,19 @@ export default () => {
       fs.mkdirSync(dir);
     }
 
-    const exportContent = exportTemplate(dependency);
-    const work = fsp.writeFile(`${dir}/index.js`, exportContent)
-      .then(() => {
-        fsp.writeFile(`${dir}/.exported`, '');
-        // eslint-disable-next-line
-        console.warn(`\x1b[34mDependency exported: ${dependency}\x1b[0m`);
-      })
-      .catch((error) => {
-        throw new Error(error);
-      });
-    works.push(work);
+    if (!fs.existsSync(`${dir}/.exported`)) {
+      const exportContent = exportTemplate(dependency);
+      const work = fsp.writeFile(`${dir}/index.js`, exportContent)
+        .then(() => {
+          fsp.writeFile(`${dir}/.exported`, '');
+          // eslint-disable-next-line
+          console.warn(`\x1b[34mDependency exported: ${dependency}\x1b[0m`);
+        })
+        .catch((error) => {
+          throw new Error(error);
+        });
+      works.push(work);
+    }
   });
 
   Promise.all(works)
