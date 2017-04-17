@@ -1,4 +1,11 @@
-export { DatePicker } from 'antd/lib/date-picker';
-export { TimePicker } from 'antd/lib/time-picker';
-export { LocaleProvider } from 'antd/lib/locale-provider';
-export { Select } from 'antd/lib/select';
+import DatePicker from 'antd/lib/date-picker';
+import TimePicker from 'antd/lib/time-picker';
+import LocaleProvider from 'antd/lib/locale-provider';
+import Select from 'antd/lib/select';
+
+export {
+  DatePicker,
+  TimePicker,
+  LocaleProvider,
+  Select,
+}
