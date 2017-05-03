@@ -8,4 +8,4 @@ export {
   TimePicker,
   LocaleProvider,
   Select,
-}
+};
