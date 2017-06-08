@@ -67,6 +67,7 @@
     "react-rte": "git://github.com/pathable/react-rte.git",
     "react-tabs": "^0.8.2",
     "react-twitter-widgets": "^0.2.4",
+    "react-waypoint": "^7.0.3",
     "redis": "^2.6.3",
     "redux": "^3.3.1",
     "redux-form": "^6.6.1",
