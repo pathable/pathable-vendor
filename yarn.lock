@@ -1060,6 +1060,10 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
 
+consolidated-events@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/consolidated-events/-/consolidated-events-1.0.1.tgz#70f475f4a5d6d20428e702da1b8870d9cc031a14"
+
 contains-path@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/contains-path/-/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
@@ -3845,7 +3849,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.4:
+prop-types@^15.0.0, prop-types@^15.5.4:
   version "15.5.8"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.8.tgz#6b7b2e141083be38c8595aa51fc55775c7199394"
   dependencies:
@@ -4394,6 +4398,13 @@ react-twitter-widgets@^0.2.4:
     lodash.clonedeep "^4.3.1"
     lodash.isequal "^4.1.1"
     scriptjs "^2.5.8"
+
+react-waypoint@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/react-waypoint/-/react-waypoint-7.0.3.tgz#dc80bf5ac16640567340c0f1f0a9ef5d44f41437"
+  dependencies:
+    consolidated-events "^1.0.1"
+    prop-types "^15.0.0"
 
 react@15.1.x:
   version "15.1.0"
