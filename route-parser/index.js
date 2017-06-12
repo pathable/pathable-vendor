@@ -1,2 +1,2 @@
-export { default } from 'route-parser';
-export * from 'route-parser';
+//export { default } from 'route-parser';
+//export * from 'route-parser';
