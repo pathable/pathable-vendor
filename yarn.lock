@@ -1848,6 +1848,14 @@ file-entry-cache@^1.1.1:
     flat-cache "^1.2.1"
     object-assign "^4.0.1"
 
+file-extension@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/file-extension/-/file-extension-3.1.2.tgz#eed169877eeba004aa890bf3f11b4a82935e5914"
+
+file-size@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/file-size/-/file-size-1.0.0.tgz#3338267d5d206bbf60f4df60c19d7ed3813a4657"
+
 filename-regex@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/filename-regex/-/filename-regex-2.0.0.tgz#996e3e80479b98b9897f15a8a58b3d084e926775"
