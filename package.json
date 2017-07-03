@@ -29,6 +29,8 @@
     "draft-js-prism": "https://git@github.com/Gywem/draft-js-prism#1.0.4",
     "enzyme": "^2.3.0",
     "faker": "^3.1.0",
+    "file-extension": "^3.1.2",
+    "file-size": "^1.0.0",
     "filepicker-js": "^2.4.11",
     "generic-names": "^1.0.2",
     "immutable": "^3.7.6",
