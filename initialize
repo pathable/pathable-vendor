@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-npm install https://github.com/pathable/pathable-scripts.git
+npm install https://github.com/pathable/pathable-scripts.git#ci-test
 
 # TODO: Move babel scripts to `pathable-scripts` and set up the
 # babel-cli dependency there.
