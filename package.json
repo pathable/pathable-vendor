@@ -101,6 +101,6 @@
     "eslint-plugin-react": "^4.3.0",
     "fs-extra-promise": "^0.4.1",
     "fs-promise": "^1.0.0",
-    "pathable-scripts": "https://github.com/pathable/pathable-scripts.git"
+    "pathable-scripts": "https://github.com/pathable/pathable-scripts.git#ci-test"
   }
 }
