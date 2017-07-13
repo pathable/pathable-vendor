@@ -20,6 +20,7 @@
     "cheerio": "0.20.x",
     "classnames": "^2.2.5",
     "color": "^1.0.3",
+    "crypto": "^0.0.3",
     "css": "^2.2.1",
     "css-element-queries": "^0.3.2",
     "css-math": "^0.3.7",
