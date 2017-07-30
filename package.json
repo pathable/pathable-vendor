@@ -34,7 +34,6 @@
     "filepicker-js": "^2.4.11",
     "generic-names": "^1.0.2",
     "immutable": "^3.7.6",
-    "jsdom": "^9.11.0",
     "jss": "^8.0.0",
     "jss-preset-default": "^3.0.0",
     "localforage": "^1.5.0",
