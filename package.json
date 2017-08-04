@@ -47,6 +47,7 @@
     "moment-timezone": "^0.5.11",
     "node-sass": "^4.4.0",
     "object-unfreeze": "^1.1.0",
+    "pathable-scripts": "git+https://github.com/pathable/pathable-scripts.git",
     "postcss": "^5.2.11",
     "prop-types": "^15.5.10",
     "query-string": "^4.3.4",
