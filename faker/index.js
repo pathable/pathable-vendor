@@ -1,1 +1,2 @@
-export default () => require('faker');
+export { default } from 'faker';
+export * from 'faker';
