@@ -67,7 +67,6 @@
     "react-redux": "^5.0.5",
     "react-router": "^2.4.0",
     "react-router-redux": "^4.0.4",
-    "react-rte": "git://github.com/pathable/react-rte.git",
     "react-stubber": "^1.0.0",
     "react-tabs": "^0.8.2",
     "react-test-renderer": "^15.6.1",
