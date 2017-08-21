@@ -937,15 +937,7 @@ cli-width@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cli-width/-/cli-width-2.1.0.tgz#b234ca209b29ef66fc518d9b98d5847b00edf00a"
 
-clipboard@^1.5.5:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-1.6.1.tgz#65c5b654812466b0faab82dc6ba0f1d2f8e4be53"
-  dependencies:
-    good-listener "^1.2.0"
-    select "^1.1.2"
-    tiny-emitter "^1.0.0"
-
-clipboard@^1.7.1:
+clipboard@^1.5.5, clipboard@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-1.7.1.tgz#360d6d6946e99a7a1fef395e42ba92b5e9b5a16b"
   dependencies:
@@ -1197,12 +1189,6 @@ dashdash@^1.12.0:
     assert-plus "^1.0.0"
 
 debug@^2.1.1, debug@^2.1.3, debug@^2.2.0, debug@^2.3.2:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.3.tgz#0f7eb8c30965ec08c72accfa0130c8b79984141d"
-  dependencies:
-    ms "0.7.2"
-
-debug@^2.3.2:
   version "2.6.8"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
@@ -1355,37 +1341,11 @@ double-ended-queue@^2.1.0-0:
   version "2.1.0-0"
   resolved "https://registry.yarnpkg.com/double-ended-queue/-/double-ended-queue-2.1.0-0.tgz#103d3527fd31528f40188130c841efdd78264e5c"
 
-"draft-js-code@https://git@github.com/Gywem/draft-js-code":
-  version "0.2.0"
-  resolved "https://git@github.com/Gywem/draft-js-code#6ade482bdd1ec586f6839333120b0d85963f1906"
-  dependencies:
-    detect-indent "^4.0.0"
-    detect-newline "^2.1.0"
-    ends-with "^0.2.0"
-    immutable "^3.8.1"
-
-"draft-js-prism@https://git@github.com/Gywem/draft-js-prism#1.0.4":
-  version "1.0.4"
-  resolved "https://git@github.com/Gywem/draft-js-prism#66a9e7fb1551836d96bcd7c006a4fb367b141888"
-  dependencies:
-    extend "^3.0.0"
-    immutable "*"
-    js-htmlencode "^0.2.0"
-    prismjs "^1.6.0"
-
 draft-js@^0.10.0, draft-js@~0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/draft-js/-/draft-js-0.10.0.tgz#29d16191012b932fdab28a9b37ec1538f421abf6"
   dependencies:
     fbjs "^0.8.7"
-    immutable "~3.7.4"
-    object-assign "^4.1.0"
-
-draft-js@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/draft-js/-/draft-js-0.9.1.tgz#940a51a0ad1fede0411676b6404f4050495f54f9"
-  dependencies:
-    fbjs "^0.8.3"
     immutable "~3.7.4"
     object-assign "^4.1.0"
 
@@ -1749,7 +1709,7 @@ extend@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz#a755ea7bc1adfcc5a31ce7e762dbaadc5e636444"
 
-extend@^3.0.0, extend@~3.0.0:
+extend@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.0.tgz#5a474353b9f3353ddd8176dfd37b91c83a46f1d4"
 
@@ -1784,7 +1744,7 @@ fastparse@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.1.tgz#d1e2643b38a94d7583b479060e6c4affc94071f8"
 
-fbjs@^0.8.3, fbjs@^0.8.4, fbjs@^0.8.7, fbjs@^0.8.9:
+fbjs@^0.8.4, fbjs@^0.8.7, fbjs@^0.8.9:
   version "0.8.9"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.9.tgz#180247fbd347dcc9004517b904f865400a0c8f14"
   dependencies:
@@ -2094,7 +2054,7 @@ globule@^1.0.0:
     lodash "~4.16.4"
     minimatch "~3.0.2"
 
-good-listener@^1.2.0, good-listener@^1.2.2:
+good-listener@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
   dependencies:
@@ -2274,7 +2234,7 @@ immediate@~3.0.5:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/immediate/-/immediate-3.0.6.tgz#9db1dbd0faf8de6fbe0f5dd5e56bb606280de69b"
 
-immutable@*, immutable@^3.7.4, immutable@^3.7.6, immutable@^3.8.1:
+immutable@^3.7.4, immutable@^3.7.6, immutable@^3.8.1:
   version "3.8.1"
   resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.1.tgz#200807f11ab0f72710ea485542de088075f68cd2"
 
@@ -2574,10 +2534,6 @@ js-beautify@^1.6.3:
     editorconfig "^0.13.2"
     mkdirp "~0.5.0"
     nopt "~3.0.1"
-
-js-htmlencode@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/js-htmlencode/-/js-htmlencode-0.2.0.tgz#469505579dc1071a40fce4620fb426883cda4fe7"
 
 js-stylesheet@^0.0.1:
   version "0.0.1"
@@ -3429,10 +3385,6 @@ mongo-object@0.0.1:
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
-
-ms@0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
 
 ms@2.0.0:
   version "2.0.0"
@@ -4851,6 +4803,21 @@ slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
 
+slate-edit-code@^0.10.3:
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/slate-edit-code/-/slate-edit-code-0.10.3.tgz#c8211a050a127cdccc9174209f778fe489659801"
+  dependencies:
+    detect-indent "^4.0.0"
+    detect-newline "^2.1.0"
+    ends-with "^0.2.0"
+    immutable "^3.8.1"
+
+slate-prism@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/slate-prism/-/slate-prism-0.2.2.tgz#0c9d5c2bee0e94a6df5fc564b7a99f6b8e1ea492"
+  dependencies:
+    prismjs "^1.6.0"
+
 slate-soft-break@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/slate-soft-break/-/slate-soft-break-0.3.0.tgz#3d28dea9e0aa4783ddcea785ff5db7277214d65f"
@@ -5134,10 +5101,6 @@ through2@^0.6.2, through2@^0.6.5:
 through@^2.3.6, through@~2.3.4:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
-
-tiny-emitter@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-1.1.0.tgz#ab405a21ffed814a76c19739648093d70654fecb"
 
 tiny-emitter@^2.0.0:
   version "2.0.1"
