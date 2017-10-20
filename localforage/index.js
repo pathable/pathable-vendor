@@ -1,2 +1,20 @@
 export { default } from 'localforage';
-export * from 'localforage';
+export {
+  INDEXEDDB,
+  WEBSQL,
+  LOCALSTORAGE,
+  _defaultConfig,
+  _config,
+  _driverSet,
+  _initDriver,
+  _ready,
+  _dbInfo,
+  clear,
+  getItem,
+  iterate,
+  key,
+  keys,
+  length,
+  removeItem,
+  setItem,
+} from 'localforage';

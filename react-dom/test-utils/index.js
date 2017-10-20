@@ -1,2 +1,27 @@
 export { default } from 'react-dom/test-utils';
-export * from 'react-dom/test-utils';
+export {
+  renderIntoDocument,
+  isElement,
+  isElementOfType,
+  isDOMComponent,
+  isDOMComponentElement,
+  isCompositeComponent,
+  isCompositeComponentWithType,
+  isCompositeComponentElement,
+  isCompositeComponentElementWithType,
+  getRenderedChildOfCompositeComponent,
+  findAllInRenderedTree,
+  scryRenderedDOMComponentsWithClass,
+  findRenderedDOMComponentWithClass,
+  scryRenderedDOMComponentsWithTag,
+  findRenderedDOMComponentWithTag,
+  scryRenderedComponentsWithType,
+  findRenderedComponentWithType,
+  mockComponent,
+  simulateNativeEventOnNode,
+  simulateNativeEventOnDOMComponent,
+  nativeTouchData,
+  createRenderer,
+  Simulate,
+  SimulateNative,
+} from 'react-dom/test-utils';

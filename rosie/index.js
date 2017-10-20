@@ -1,2 +1,4 @@
 export { default } from 'rosie';
-export * from 'rosie';
+export {
+  Factory,
+} from 'rosie';

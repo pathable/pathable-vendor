@@ -1,2 +1,22 @@
 export { default } from 'faker';
-export * from 'faker';
+export {
+  locales,
+  locale,
+  localeFallback,
+  definitions,
+  fake,
+  random,
+  helpers,
+  name,
+  address,
+  company,
+  finance,
+  image,
+  lorem,
+  hacker,
+  internet,
+  phone,
+  date,
+  commerce,
+  system,
+} from 'faker';

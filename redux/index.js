@@ -1,2 +1,9 @@
 export { default } from 'redux';
-export * from 'redux';
+export {
+  __esModule,
+  createStore,
+  combineReducers,
+  bindActionCreators,
+  applyMiddleware,
+  compose,
+} from 'redux';

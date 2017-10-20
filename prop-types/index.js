@@ -1,2 +1,22 @@
 export { default } from 'prop-types';
-export * from 'prop-types';
+export {
+  array,
+  bool,
+  func,
+  number,
+  object,
+  string,
+  symbol,
+  any,
+  arrayOf,
+  element,
+  instanceOf,
+  node,
+  objectOf,
+  oneOf,
+  oneOfType,
+  shape,
+  exact,
+  checkPropTypes,
+  PropTypes,
+} from 'prop-types';

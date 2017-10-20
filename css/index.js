@@ -1,2 +1,5 @@
 export { default } from 'css';
-export * from 'css';
+export {
+  parse,
+  stringify,
+} from 'css';
