@@ -2,11 +2,6 @@
   "name": "pathable-vendor",
   "private": true,
   "scripts": {
-    "preuninstall": "npm run clear-modules",
-    "postuninstall": "npm run export-modules",
-    "preinstall": "./initialize && npm run clear-modules",
-    "install": "p-install",
-    "postinstall": "npm run export-modules",
     "clear-modules": "babel-node --presets es2015 ./scripts clear-modules",
     "export-modules": "babel-node --presets es2015 ./scripts export-modules"
   },
@@ -106,6 +101,7 @@
     "eslint-plugin-react": "^4.3.0",
     "fs-extra-promise": "^0.4.1",
     "fs-promise": "^1.0.0",
+    "jsdom": "^9.12.0",
     "pathable-scripts": "git+https://github.com/pathable/pathable-scripts.git"
   }
 }
