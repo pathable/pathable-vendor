@@ -5,7 +5,6 @@
     "preuninstall": "npm run clear-modules",
     "postuninstall": "npm run export-modules",
     "preinstall": "./initialize && npm run clear-modules",
-    "install": "p-install",
     "postinstall": "npm run export-modules",
     "clear-modules": "babel-node --presets es2015 ./scripts clear-modules",
     "export-modules": "babel-node --presets es2015 ./scripts export-modules"
