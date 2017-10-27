@@ -3755,6 +3755,10 @@ pluralize@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-1.2.1.tgz#d1a21483fd22bb41e58a12fa3421823140897c45"
 
+polished@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-1.8.1.tgz#e50b9f789d37d98da64912f1be2bf759d8bfae6c"
+
 postcss-modules-extract-imports@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/postcss-modules-extract-imports/-/postcss-modules-extract-imports-1.0.0.tgz#5b07f368e350cda6fd5c8844b79123a7bd3e37be"
