@@ -1,10 +1,10 @@
 Package.describe({
   name: 'pathable-vendor',
   version: '0.0.1',
-  documentation: 'README.md',
+  documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.2.3');
+  api.versionsFrom('1.6');
   api.use('ecmascript');
 });
